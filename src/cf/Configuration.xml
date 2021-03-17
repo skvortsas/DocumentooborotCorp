@@ -194,6 +194,7 @@
 			<Role>ЧтениеКонтрагентов</Role>
 			<Role>ИзменениеКонтрагентов</Role>
 			<Role>ИзменениеДокументов</Role>
+			<CommonModule>ПолучитьТекущегоПользователя</CommonModule>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
