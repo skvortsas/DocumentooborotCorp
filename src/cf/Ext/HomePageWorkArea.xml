@@ -9,6 +9,13 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Item>
+		<Item>
+			<Form>Task.ЗадачаПользователя.Form.ЗадачиОтМеня</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Item>
 	</Column>
 	<MACommandInterfaceDisplays>Top</MACommandInterfaceDisplays>
 </HomePageWorkArea>
