@@ -196,6 +196,8 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>КонтактныеЛицаКонтрагентов</Catalog>
+			<Catalog>Файлы</Catalog>
+			<InformationRegister>ФИО</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
