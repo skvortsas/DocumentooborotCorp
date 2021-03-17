@@ -203,6 +203,7 @@
 			<Catalog>КонтактныеЛицаКонтрагентов</Catalog>
 			<Catalog>Файлы</Catalog>
 			<Catalog>ВнутренниеДокументы</Catalog>
+			<Catalog>ВидыДокументов</Catalog>
 			<InformationRegister>ФИО</InformationRegister>
 		</ChildObjects>
 	</Configuration>
