@@ -188,6 +188,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>ПланыОбмена</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<SessionParameter>РазделительЗначение</SessionParameter>
 			<SessionParameter>РазделительИспользование</SessionParameter>
@@ -200,9 +201,12 @@
 			<Role>ИзменениеДокументов</Role>
 			<CommonModule>ПолучитьТекущегоПользователя</CommonModule>
 			<CommonModule>ПолнотекстовыйПоискПоСодержимомуФайлов</CommonModule>
+			<CommonModule>Обмены</CommonModule>
 			<CommonModule>РаботаСФайламиКлиентСервер</CommonModule>
 			<CommonModule>РаботаСТекущимПользователемПолныеПрава</CommonModule>
 			<CommonAttribute>Разделитель</CommonAttribute>
+			<ExchangePlan>Риб</ExchangePlan>
+			<EventSubscription>ПриЗаписиСправочника</EventSubscription>
 			<ScheduledJob>ОбновлениеИндексаФайлов</ScheduledJob>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
