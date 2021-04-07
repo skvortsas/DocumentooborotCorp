@@ -14,12 +14,6 @@
 		<CheckBoxField name="Контекст" id="19">
 			<DataPath>Контекст</DataPath>
 			<TitleLocation>None</TitleLocation>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>тест</v8:content>
-				</v8:item>
-			</ToolTip>
 			<ToolTipRepresentation>Balloon</ToolTipRepresentation>
 			<CheckBoxType>Tumbler</CheckBoxType>
 			<EditFormat>
@@ -79,6 +73,11 @@
 				<ContextMenu name="СписокЧатовУправлениеПоискомКонтекстноеМеню" id="33"/>
 				<ExtendedTooltip name="СписокЧатовУправлениеПоискомРасширеннаяПодсказка" id="34"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="ValueChoice">СписокЧатовВыборЗначения</Event>
+				<Event name="Selection">СписокЧатовВыбор</Event>
+				<Event name="OnActivateCell">СписокЧатовПриАктивизацииЯчейки</Event>
+			</Events>
 			<ChildItems>
 				<InputField name="СписокЧатовИмя" id="35">
 					<DataPath>СписокЧатов.Имя</DataPath>
@@ -93,6 +92,64 @@
 					<ContextMenu name="СписокЧатовИдентификаторКонтекстноеМеню" id="39"/>
 					<ExtendedTooltip name="СписокЧатовИдентификаторРасширеннаяПодсказка" id="40"/>
 				</LabelField>
+			</ChildItems>
+		</Table>
+		<Table name="СписокСообщений" id="44">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>СписокСообщений</DataPath>
+			<CommandSet>
+				<ExcludedCommand>Add</ExcludedCommand>
+				<ExcludedCommand>Change</ExcludedCommand>
+				<ExcludedCommand>Copy</ExcludedCommand>
+				<ExcludedCommand>Delete</ExcludedCommand>
+				<ExcludedCommand>EndEdit</ExcludedCommand>
+			</CommandSet>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СписокСообщенийКонтекстноеМеню" id="45"/>
+			<AutoCommandBar name="СписокСообщенийКоманднаяПанель" id="46">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокСообщенийРасширеннаяПодсказка" id="47"/>
+			<SearchStringAddition name="СписокСообщенийСтрокаПоиска" id="48">
+				<AdditionSource>
+					<Item>СписокСообщений</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСообщенийСтрокаПоискаКонтекстноеМеню" id="49"/>
+				<ExtendedTooltip name="СписокСообщенийСтрокаПоискаРасширеннаяПодсказка" id="50"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСообщенийСостояниеПросмотра" id="51">
+				<AdditionSource>
+					<Item>СписокСообщений</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСообщенийСостояниеПросмотраКонтекстноеМеню" id="52"/>
+				<ExtendedTooltip name="СписокСообщенийСостояниеПросмотраРасширеннаяПодсказка" id="53"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокСообщенийУправлениеПоиском" id="54">
+				<AdditionSource>
+					<Item>СписокСообщений</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСообщенийУправлениеПоискомКонтекстноеМеню" id="55"/>
+				<ExtendedTooltip name="СписокСообщенийУправлениеПоискомРасширеннаяПодсказка" id="56"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="СписокСообщенийАвтор" id="57">
+					<DataPath>СписокСообщений.Автор</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокСообщенийАвторКонтекстноеМеню" id="58"/>
+					<ExtendedTooltip name="СписокСообщенийАвторРасширеннаяПодсказка" id="59"/>
+				</InputField>
+				<InputField name="СписокСообщенийТекст" id="78">
+					<DataPath>СписокСообщений.Текст</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокСообщенийТекстКонтекстноеМеню" id="79"/>
+					<ExtendedTooltip name="СписокСообщенийТекстРасширеннаяПодсказка" id="80"/>
+				</InputField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
@@ -147,9 +204,7 @@
 							<v8:content>Идентификатор</v8:content>
 						</v8:item>
 					</Title>
-					<Type>
-						<v8:Type>v8:UUID</v8:Type>
-					</Type>
+					<Type/>
 				</Column>
 			</Columns>
 		</Attribute>
@@ -168,6 +223,52 @@
 					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>
+		</Attribute>
+		<Attribute name="Реквизит1" id="5">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СписокСообщений" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список сообщений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Автор" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Автoр</v8:content>
+						</v8:item>
+					</Title>
+					<Type/>
+				</Column>
+				<Column name="Текст" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тeкст</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
 		</Attribute>
 	</Attributes>
 	<Commands>
