@@ -237,6 +237,7 @@
 			<Report>ПланФактПроектов</Report>
 			<DataProcessor>ЗапускОбновленияИндексаТекстовыхФайлов</DataProcessor>
 			<DataProcessor>СистемаВзаимодействияПользователи</DataProcessor>
+			<DataProcessor>СистемаВзаимодействияЧаты</DataProcessor>
 			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
 			<AccumulationRegister>ЗатратыПоПроектам</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиЗатратПоПроектам</ChartOfCharacteristicTypes>
