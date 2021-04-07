@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<BusinessProcess uuid="2d87216e-fe1e-405d-96c3-dfd35dbec2a6">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<BusinessProcess uuid="66e1a967-e5f8-4e73-9593-edcebc06ada2">
 		<InternalInfo>
 			<xr:GeneratedType name="BusinessProcessObject.Исполнение" category="Object">
-				<xr:TypeId>84b73064-1f4b-4165-80d0-7221789fd913</xr:TypeId>
-				<xr:ValueId>4dbff9e6-cad7-43f2-8c50-7a1bd2103061</xr:ValueId>
+				<xr:TypeId>138c474b-9dab-4ce7-bb5e-c6f6d01321f7</xr:TypeId>
+				<xr:ValueId>5cbdf40b-8760-402b-a214-2ab781b9fdab</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="BusinessProcessRef.Исполнение" category="Ref">
-				<xr:TypeId>18d94d56-1577-4b80-a4a1-dc592437b615</xr:TypeId>
-				<xr:ValueId>decb6182-478b-4dab-84bd-d2b94ad09ac1</xr:ValueId>
+				<xr:TypeId>d5541cc2-e059-4e19-8f23-41eb4126c96f</xr:TypeId>
+				<xr:ValueId>fed2fa48-9325-4239-8f67-f83de2590a48</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="BusinessProcessSelection.Исполнение" category="Selection">
-				<xr:TypeId>fabfb72f-ded9-4b77-a5dd-b3643c3e3cc3</xr:TypeId>
-				<xr:ValueId>c3f1a707-d1b3-433c-a89d-480301e07bc8</xr:ValueId>
+				<xr:TypeId>eb8ff94b-e4b2-4a6b-bbda-e538714ace13</xr:TypeId>
+				<xr:ValueId>702c641e-76ad-4933-9240-6800b9e6894d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="BusinessProcessList.Исполнение" category="List">
-				<xr:TypeId>8fffefa7-3600-44aa-a4b2-c6561305e066</xr:TypeId>
-				<xr:ValueId>117348ab-1e9d-473d-bca9-6f65549a42f5</xr:ValueId>
+				<xr:TypeId>01c9d0bb-9446-4cbb-b0bf-576c4f0d23e7</xr:TypeId>
+				<xr:ValueId>23e2e6e8-9632-4e3e-8f2c-56d41074f75d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="BusinessProcessManager.Исполнение" category="Manager">
-				<xr:TypeId>39a43e00-be79-40d6-8308-9206778c9d08</xr:TypeId>
-				<xr:ValueId>fd25502d-97e7-42bf-b4c6-66093d224ab7</xr:ValueId>
+				<xr:TypeId>f328605d-ce8b-4e45-9dbe-d77269ac636d</xr:TypeId>
+				<xr:ValueId>44432408-1bf0-4afc-92cc-daa5323a5c5f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="BusinessProcessRoutePointRef.Исполнение" category="RoutePointRef">
-				<xr:TypeId>063cd8a4-6c7b-454f-b8b0-63773c530582</xr:TypeId>
-				<xr:ValueId>d5d0c8bc-17c3-458e-b5e4-6da0d3ad380a</xr:ValueId>
+				<xr:TypeId>0f3259f7-9a9d-490a-8a17-1bf284926b18</xr:TypeId>
+				<xr:ValueId>b21a0d72-eb8b-456f-9637-739917016390</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -60,7 +60,7 @@
 			<Autonumbering>true</Autonumbering>
 			<BasedOn/>
 			<NumberPeriodicity>Nonperiodical</NumberPeriodicity>
-			<Task>Task.ЗадачаПользователя</Task>
+			<Task>Task.ЗадачиПользователя</Task>
 			<CreateTaskInPrivilegedMode>true</CreateTaskInPrivilegedMode>
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
@@ -76,7 +76,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="4b5b6d66-a2b9-4ac4-8b42-924af11c9d1e">
+			<Attribute uuid="3630980e-5e66-43e0-a6d9-4995a7fe3860">
 				<Properties>
 					<Name>Исполнитель</Name>
 					<Synonym>
@@ -115,7 +115,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="e83239bb-a69c-49d7-b6c8-4a6efb9a9dab">
+			<Attribute uuid="e2f50ed0-d921-4f0c-ba7a-bbe16086d0cc">
 				<Properties>
 					<Name>ПроверкаПройдена</Name>
 					<Synonym>
@@ -154,7 +154,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="67d18add-1fd3-49b4-9ee6-b8679def10f8">
+			<Attribute uuid="b5c9a112-3a56-44f4-9db8-7bc7dbc14200">
 				<Properties>
 					<Name>Комментарий</Name>
 					<Synonym>
@@ -167,7 +167,7 @@
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>300</v8:Length>
+							<v8:Length>10</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -197,7 +197,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-            <Attribute uuid="42da4cde-ce91-4fd0-aa05-4407106c0f3d">
+			<Attribute uuid="54ab9d06-82a0-4c9b-926b-40ff5857d10d">
 				<Properties>
 					<Name>Автор</Name>
 					<Synonym>

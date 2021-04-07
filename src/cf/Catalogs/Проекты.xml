@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Catalog uuid="7afb1140-5bd7-4131-ac67-d770c444802f">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="797bb524-ff54-469e-9bfa-75a1a3838802">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Проекты" category="Object">
-				<xr:TypeId>c8ea9b51-e610-4ff2-8c01-debe8a5bb6e0</xr:TypeId>
-				<xr:ValueId>eb0a1b8b-1c71-4fe5-b871-47dde05e5b07</xr:ValueId>
+				<xr:TypeId>1e16d793-bf51-49ab-85d3-9cf692847e14</xr:TypeId>
+				<xr:ValueId>00d7c82e-4648-4721-aa3e-4dbdd8e4ecfe</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Проекты" category="Ref">
-				<xr:TypeId>cd0fcde5-6871-4aea-8def-65ccda5c8fa3</xr:TypeId>
-				<xr:ValueId>b376d969-3df3-450d-a2a5-8c8b259982e9</xr:ValueId>
+				<xr:TypeId>ca8a8e19-7bb3-4aab-bb5c-bf002ff6e468</xr:TypeId>
+				<xr:ValueId>0db2a557-41de-4923-9b83-936caf7b49ea</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Проекты" category="Selection">
-				<xr:TypeId>35410778-b9b3-44ec-84ef-1a2e269c0d24</xr:TypeId>
-				<xr:ValueId>f01c541f-86dc-4e23-93ba-cf6d4f807daa</xr:ValueId>
+				<xr:TypeId>ca1e80be-b426-4014-9508-f021390ecf08</xr:TypeId>
+				<xr:ValueId>94200864-2486-4d24-88fc-ff8739e163ec</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Проекты" category="List">
-				<xr:TypeId>ea524be1-643e-4968-ac62-388a9c7cc4a3</xr:TypeId>
-				<xr:ValueId>d95de63c-e5a6-4893-8366-04875c7818df</xr:ValueId>
+				<xr:TypeId>9be1b8cf-43bb-4a33-b3a3-80652ded89a1</xr:TypeId>
+				<xr:ValueId>cf971465-6624-40df-ad5a-1bd225674b1e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Проекты" category="Manager">
-				<xr:TypeId>e3dfdda3-ce07-429e-921f-30ef2af214db</xr:TypeId>
-				<xr:ValueId>012cb5f7-b32c-45fb-a6f1-bb9c44ad6d99</xr:ValueId>
+				<xr:TypeId>06efc761-cf3b-45f6-954b-5c1882e5e106</xr:TypeId>
+				<xr:ValueId>de6b6720-e92f-476f-a97b-cbec5e2f5f8c</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -87,7 +87,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="2a787d43-115e-4a81-b3e5-0e21ecea55ce">
+			<Attribute uuid="592c5290-4458-4a2e-b7a5-2a0fd93585df">
 				<Properties>
 					<Name>Дата</Name>
 					<Synonym>
@@ -130,6 +130,65 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="3f3fc479-1874-4c61-ac08-863d111dca7a">
+				<Properties>
+					<Name>Организация</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Организация</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Template>Печать</Template>
+			<Command uuid="dd003437-6809-4afe-aca9-7652900060ba">
+				<Properties>
+					<Name>Печать</Name>
+					<Synonym/>
+					<Comment/>
+					<Group>FormCommandBarImportant</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Multiple</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture/>
+					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+				</Properties>
+			</Command>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

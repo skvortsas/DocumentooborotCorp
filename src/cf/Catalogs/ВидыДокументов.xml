@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Catalog uuid="a1be17e6-3cd7-45ca-bc7f-9f64819e2a28">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="902c8fcd-3cf0-49b8-9641-9e29db8749eb">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.ВидыДокументов" category="Object">
-				<xr:TypeId>27557cc3-b06c-4d52-b173-942c475e5fcf</xr:TypeId>
-				<xr:ValueId>b386c3b2-ff88-4e7e-9672-a41bceec89c6</xr:ValueId>
+				<xr:TypeId>c8bb4cc6-a80f-48bf-a614-569d955603ff</xr:TypeId>
+				<xr:ValueId>2ceb57df-a0ec-4188-942b-23a0998fbf28</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.ВидыДокументов" category="Ref">
-				<xr:TypeId>9b3ff502-be13-4362-a91c-9e1c82bfd8c6</xr:TypeId>
-				<xr:ValueId>0a6d4342-4c8d-4735-8e28-36b9aa337666</xr:ValueId>
+				<xr:TypeId>d3efe578-34c9-443e-ad91-fb867a2b64ef</xr:TypeId>
+				<xr:ValueId>368d6a00-02f4-4d1d-909a-11c7539effdf</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.ВидыДокументов" category="Selection">
-				<xr:TypeId>d11de382-ac51-4a64-ae48-827460f7293d</xr:TypeId>
-				<xr:ValueId>54cf0085-f60c-49ec-a844-f39396073ed6</xr:ValueId>
+				<xr:TypeId>cd2a55a1-ef55-424e-9696-887d2917b881</xr:TypeId>
+				<xr:ValueId>aa9bf826-1293-49a2-820a-033b34b0f35a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.ВидыДокументов" category="List">
-				<xr:TypeId>ae3c63b4-5850-4398-aec4-f2e7f8fd8e8b</xr:TypeId>
-				<xr:ValueId>e85f00cb-86b9-4cfc-92d9-398931e23edf</xr:ValueId>
+				<xr:TypeId>ba7ef37a-ecd7-4cf3-8c0b-41916155cf9a</xr:TypeId>
+				<xr:ValueId>fa943f3e-2c7a-4caf-b3db-d068e70a14fe</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.ВидыДокументов" category="Manager">
-				<xr:TypeId>f0a62964-e544-44a9-b273-4b1de635c2a3</xr:TypeId>
-				<xr:ValueId>80e22857-46b5-4190-ab7f-3fbac989eae0</xr:ValueId>
+				<xr:TypeId>3ab293ce-0a85-43f7-9789-434da1d8c902</xr:TypeId>
+				<xr:ValueId>02515c03-dd89-475d-9f18-a56ee7a56b4b</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -49,7 +49,7 @@
 			<Autonumbering>true</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<Characteristics/>
-			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
+			<PredefinedDataUpdate>AutoUpdate</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
@@ -60,7 +60,7 @@
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.ВидыДокументов.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm/>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
@@ -87,15 +87,15 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<TabularSection uuid="db0e8536-7c6f-4c91-889c-53f60ddba312">
+			<TabularSection uuid="5feed3df-70b0-43d6-a45c-3e32515adbcf">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.ВидыДокументов.РабочаяГруппа" category="TabularSection">
-						<xr:TypeId>36b7180b-a764-411d-8786-b637a214cd1f</xr:TypeId>
-						<xr:ValueId>561b4730-7a9b-417b-9ad8-4835e9d5f221</xr:ValueId>
+						<xr:TypeId>28846237-712d-4bbd-abc5-ae1549b50ebe</xr:TypeId>
+						<xr:ValueId>fb634b08-0beb-41bc-9960-1c2638e14c93</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="CatalogTabularSectionRow.ВидыДокументов.РабочаяГруппа" category="TabularSectionRow">
-						<xr:TypeId>085632c4-27e2-46c8-970a-9a892a2e1eee</xr:TypeId>
-						<xr:ValueId>3d802756-3901-4407-97af-430714c24c48</xr:ValueId>
+						<xr:TypeId>c3998f6e-2af5-4b84-8c55-030404adc976</xr:TypeId>
+						<xr:ValueId>b0a4398c-dc64-4e22-96dc-3b751d1ed1cf</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -112,7 +112,7 @@
 					<Use>ForItem</Use>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="46b552ee-c116-4777-9968-ec3b5efbfe30">
+					<Attribute uuid="b1b79c0c-2b6c-49f3-8fad-11a8e6e59f61">
 						<Properties>
 							<Name>Участник</Name>
 							<Synonym>
@@ -123,7 +123,11 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>10</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -151,7 +155,6 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-            <Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Catalog uuid="3598fcf1-d859-4845-9ca0-b48425c349ef">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Catalog uuid="e7b4a7a7-889c-496b-8019-c572b040df9d">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Валюты" category="Object">
-				<xr:TypeId>b392d5c9-55dd-4505-bb90-348cf6f6f492</xr:TypeId>
-				<xr:ValueId>fbef4f8d-be96-4de8-b07b-0a2762011f57</xr:ValueId>
+				<xr:TypeId>1966a872-fc94-4e28-b9d4-ec9d87b50c91</xr:TypeId>
+				<xr:ValueId>100769cb-0faa-4144-9cfe-739c94e9cd21</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Валюты" category="Ref">
-				<xr:TypeId>a9522a3b-2387-4a84-b50a-87b4491801c1</xr:TypeId>
-				<xr:ValueId>49dfda1a-718a-40aa-8ab9-734f9e77ec1b</xr:ValueId>
+				<xr:TypeId>d4ba29cc-7584-4a79-86b6-a674d8d740fb</xr:TypeId>
+				<xr:ValueId>c6458050-703b-4dad-a805-bff44b4e9d18</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Валюты" category="Selection">
-				<xr:TypeId>ee3ba117-3728-42a1-b815-29aa39fa44c4</xr:TypeId>
-				<xr:ValueId>9906e75d-635e-41b4-b48c-d024cf77631f</xr:ValueId>
+				<xr:TypeId>f4cfd2d8-d6f7-459c-9952-0d513d285261</xr:TypeId>
+				<xr:ValueId>f92483c0-a209-4d70-81c6-56f12734933b</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Валюты" category="List">
-				<xr:TypeId>e9ef6c9d-66ae-4fcc-8c55-03424f9fe939</xr:TypeId>
-				<xr:ValueId>d7a6f9b3-4792-4267-a744-26d302b9d7f6</xr:ValueId>
+				<xr:TypeId>4d51c7c3-f241-4a01-8f40-849c8a87aca1</xr:TypeId>
+				<xr:ValueId>5004a080-5ab9-423d-8035-c2f6a7e73ad7</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Валюты" category="Manager">
-				<xr:TypeId>e31f86ab-4a76-4e84-bc1d-4a8452f01c17</xr:TypeId>
-				<xr:ValueId>fb290a24-b018-4bcd-9fea-89d86f9d01ac</xr:ValueId>
+				<xr:TypeId>d710254a-6729-41c0-bed1-02f28f644909</xr:TypeId>
+				<xr:ValueId>8e23332b-a7b2-4555-bd59-85a677620dd7</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
