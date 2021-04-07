@@ -236,6 +236,7 @@
 			<Enum>ПеречислениеСогласован</Enum>
 			<Report>ПланФактПроектов</Report>
 			<DataProcessor>ЗапускОбновленияИндексаТекстовыхФайлов</DataProcessor>
+			<DataProcessor>СистемаВзаимодействияПользователи</DataProcessor>
 			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
 			<AccumulationRegister>ЗатратыПоПроектам</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиЗатратПоПроектам</ChartOfCharacteristicTypes>
