@@ -218,8 +218,11 @@
 			<CommonModule>РаботаСПользователем</CommonModule>
 			<CommonModule>ПолнотекстовыйПоискПоСодержимомуФайлов</CommonModule>
 			<CommonModule>РаботаСФайламиКлиентСервер</CommonModule>
+			<CommonModule>Боты</CommonModule>
 			<CommonAttribute>Разделитель</CommonAttribute>
 			<ScheduledJob>ОбновлениеИндексаФайлов</ScheduledJob>
+			<ScheduledJob>АктивироватьБотов</ScheduledJob>
+			<Bot>Телеграмм</Bot>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
